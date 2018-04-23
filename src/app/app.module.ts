@@ -5,11 +5,15 @@ import {NgbModule} from '@ng-bootstrap/ng-bootstrap';
 
 import {AppComponent} from './app.component';
 import { ListaDeDisciplinasComponent } from './lista-de-disciplinas/lista-de-disciplinas.component';
+import { RodaPeComponent } from './roda-pe/roda-pe.component';
+import { ApresentadorversaoComponent } from './apresentadorversao/apresentadorversao.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    ListaDeDisciplinasComponent
+    ListaDeDisciplinasComponent,
+    RodaPeComponent,
+    ApresentadorversaoComponent
   ],
   imports: [
     NgbModule.forRoot(),
