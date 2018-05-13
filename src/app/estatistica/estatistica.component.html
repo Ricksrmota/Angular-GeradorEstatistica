@@ -1,0 +1,34 @@
+<span>{{ordenado}}</span>
+<br>
+<span>Maior Valor:{{maior}}</span>
+<br>
+<span>Menor Valor:{{menor}}</span>
+<br>
+<span>Tamanho do vetor: {{n}}</span>
+<br>
+<span>Log de N: {{interRedondo}}<span>
+<br>
+<span>Intervalo real: {{h}}<span>
+
+<div class="container">
+    <h1>Gerador de Estatisticas</h1>
+    <table class="table table-hover table-bordered">
+        <thead class="thead-light">
+        <tr>
+            <th>Intervalo</th>
+            <th>Fi</th>
+            <th>Frequência Relativa</th>
+            <th>Frequência Acumulada</th>
+        </tr>
+        </thead>
+        <tbody>
+      <tr *ngFor="let intervalo of intervalos">
+      <td>{{intervalo}}</td>
+      </tr>
+      <b><td> Total: {{total}}</td></b>
+
+        
+        
+        </tbody>
+</table>
+</div>
