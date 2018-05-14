@@ -55,21 +55,13 @@ export class EstatisticaComponent implements OnInit {
       
       this.intervaloMin = this.interValoMaximo;
       this.frequenciaRE = (this.contadorFI/(this.n-1))*100;
-      this.frequenciaAC =this.frequenciaRE+this.frequenciaAC;
-       
-
+      this.frequenciaAC =this.frequenciaRE+this.frequenciaAC;  
       const z = new Intervalo(this.valor, this.contadorFI, this.frequenciaRE,this.frequenciaAC);
       this.intervalos2.push(z);
       this.contadorFI=0;
-      this.c=0;
-
-   
+      this.c=0;  
     }
 
-
-    
-
- 
  }
  
   ngOnInit() {
