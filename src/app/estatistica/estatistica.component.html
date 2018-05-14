@@ -22,9 +22,15 @@
         </tr>
         </thead>
         <tbody>
-      <tr *ngFor="let intervalo of intervalos">
-      <td>{{intervalo}}</td>
+      <tr *ngFor="let intervalo of intervalos2">
+      <td>{{intervalo.nome}}</td>
+      <td>{{intervalo.quantidade}}</td>
+      <td>{{intervalo.frequenciaR}} %</td>
+      <td>{{intervalo.frequenciaAC}} %</td>
       </tr>
+    
+
+
       <b><td> Total: {{total}}</td></b>
 
         
